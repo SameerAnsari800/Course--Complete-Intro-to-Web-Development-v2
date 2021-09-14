@@ -1,7 +1,7 @@
 h1{
 	font-family:helvetica;
 	color:blue;
-	font-weigh:normal;
+	font-weight:normal;
 	text-decoration:underline;
 	text-transform:uppercase;
 	font-size:50px;
@@ -11,7 +11,7 @@ h1{
 h2{
 	font-family:monaco;
 	color:seagreen;
-	font-weigh:normal;
+	font-weight:normal;
 	text-decoration:underline;
 	text-transform:uppercase;
 	font-size:40px;

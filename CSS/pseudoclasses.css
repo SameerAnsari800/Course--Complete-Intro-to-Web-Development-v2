@@ -1,0 +1,19 @@
+.hover-example {
+  
+    width: 100px;
+    height: 100px;
+    background-color:limegreen;
+    color: white;
+
+}
+.hover-example:hover {
+  
+    width: 150px;
+    height: 150px;
+    background-color:crimson;
+    color: black;
+    
+}   
+div.hover-example{
+    background-color: aqua;
+}
