@@ -1,0 +1,7 @@
+.first-child-example {
+    color: crimson;
+}
+.first-child-example:nth-child(2n+1){
+    color: lime;
+}
+
