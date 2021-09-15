@@ -1,3 +1,10 @@
+*{                           /*   star selects literally every element like everythink */ 
+font-weight: bold;
+font-family: monospace;
+font-size: larger;
+font-style: italic;
+}
+
 .first-child-example {
     color: crimson;
 }
