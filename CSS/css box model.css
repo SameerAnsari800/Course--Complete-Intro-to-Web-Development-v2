@@ -3,14 +3,16 @@
     background-color: #eee;
     height: 200px;
     width: 200px;
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: center;
-    float:left ;
+    float:left;
     margin-right: 10px;
     border-radius: 5px;
     font-size: 30px;
 }
+
 .ex-box:last-of-type{
     clear: right;
 }
+
