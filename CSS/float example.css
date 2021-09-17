@@ -19,3 +19,7 @@ background-color: limegreen;
 height: 200px;
 width: 100px;
 }
+
+.floated  .box {
+    float: left;
+}

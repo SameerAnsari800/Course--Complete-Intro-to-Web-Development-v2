@@ -6,13 +6,13 @@
     display:flex;
     align-items: center;
     justify-content: center;
-    float:left;
+    float:right;
     margin-right: 10px;
     border-radius: 5px;
     font-size: 30px;
 }
 
-.ex-box:last-of-type{
-    clear: right;
-}
 
+.ex-box:last-of-type{
+    clear: left;
+}
