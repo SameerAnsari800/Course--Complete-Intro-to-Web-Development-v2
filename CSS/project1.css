@@ -1,0 +1,151 @@
+.brand-header{
+    border-bottom: 3px solid black;
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    display: block;
+}
+
+
+
+
+
+
+.quarter {
+    width: 25%;
+}
+.story {
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+* {
+    box-sizing: border-box;
+}
+article {
+    display: block;
+}
+
+
+
+
+.article-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    display: block;
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+.half {
+    width: 50%;
+}
+
+.story {
+    border-right: 1px solid black;
+    padding: 0 10px;
+    float:right;
+}
+* {
+    box-sizing: border-box;
+}
+article {
+display: block;
+}
+
+.article-title {
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+* {
+    box-sizing: border-box;
+}
+h1 {
+    display: block;
+}
+
+.article-img{
+    width: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+
+
+.quarter {
+    width: 25%;
+
+}
+.story{
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+article {
+    display: block;
+}
+
+
+
+
+
+
+
+.site-section-politics{
+    background-color: antiquewhite;
+}
+.site-section{
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+}
+*{
+    box-sizing: border-box;
+}
+.section-link {
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: "futura";
+    color: #666;
+}
+.site-section-tech {
+    background-color: aqua;
+}
+.site-section-local {
+    background-color: blueviolet;
+}
+.site-section-opinion {
+    background-color: chartreuse;
+}
+.site-section-sports {
+    background-color: crimson;
+}
+
+
