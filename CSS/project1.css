@@ -1,11 +1,13 @@
 .brand-header{
     border-bottom: 3px solid black;
+    text-align: center;
 }
 * {
     box-sizing: border-box;
 }
 header {
     display: block;
+    align-items: center;
 }
 
 
@@ -42,7 +44,13 @@ article {
 h1 {
     display: block;
 }
-
+.row {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    border-bottom: 3px solid black;
+    border-left: 1px solid black;
+}
 
 
 
@@ -82,6 +90,7 @@ display: block;
     font-weight: normal;
     font-style: italic;
 }
+
 * {
     box-sizing: border-box;
 }
@@ -99,26 +108,65 @@ h1 {
 
 .quarter {
     width: 25%;
+    
 
+}
+.story {
+    border-right: 1px solid black;
+    padding: 0 10px;
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.article-title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+}
+*{
+    box-sizing: border-box;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0em;
+    margin-inline-end: 0em;
+
+}
+
+
+
+
+
+
+
+.other-sections  {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+.three-quarter {
+    width: 75%;
 }
 .story{
     border-right: 1px solid black;
-    padding: 0 10px;
-}
-article {
-    display: block;
+    float: left;
 }
 
 
-
-
-
-
-
-.site-section-politics{
+.site-section-politics {
     background-color: antiquewhite;
 }
-.site-section{
+.site-section {
     display: flex;
     align-items: center;
     flex: 1;
@@ -135,17 +183,29 @@ article {
     font-family: "futura";
     color: #666;
 }
+.site-section-politics{
+    background-color: #ffeaa7
+}
 .site-section-tech {
     background-color: aqua;
 }
 .site-section-local {
-    background-color: blueviolet;
+    background-color:orange;
 }
 .site-section-opinion {
     background-color: chartreuse;
 }
 .site-section-sports {
-    background-color: crimson;
+    background-color: rgb(78, 185, 252);
+}
+.section-link {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 30px;
+    font-weight: bold;
+    font-family: "Futura";
+    color: #666;
 }
 
 
