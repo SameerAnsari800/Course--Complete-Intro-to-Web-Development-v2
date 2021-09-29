@@ -1,5 +1,5 @@
-const monthly_Rent = 500;
-console.log(monthly_Rent);
+const monthlyRent = 500;
+console.log(monthlyRent);
 
-const yearlyRent = monthly_Rent * 12;
+const yearlyRent = monthlyRent * 12;
 console.log(yearlyRent);
