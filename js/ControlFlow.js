@@ -48,6 +48,32 @@ else {
 
 
 
+if(2+2!==4){
+    console.log("the fundamental principles of mathematics still hold true")
+}
+else {
+    console.log("un,panic?")
+
+}
+
+
+
+const friendsAtyourParty = 10;
+if (friendsAtyourParty === 0) {
+    console.log("cool,now i have a lot of nachos to myself")
+
+}
+else if (friendsAtyourParty <= 4) {
+    console.log("perfect amount o play some mario")
+}
+else {
+console.log("wooooo turn on the dance music")    
+}
+
+
+
+
+
 
 
 
